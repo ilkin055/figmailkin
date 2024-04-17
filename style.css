@@ -26,6 +26,7 @@ line-height: 39px;
 text-align: left;
 margin-bottom: 30px;
 margin-left: 14px;
+overflow: hidden;
 }
 
 .two{
@@ -35,6 +36,8 @@ font-weight: 400;
 line-height: 32.5px;
 text-align: left;
 margin-left: 14px;
+margin-bottom: 5px;
+overflow: hidden;
 }
 
 
@@ -62,6 +65,7 @@ margin-left: 14px;
     .main-text {
         width: 65%;
     }
+
 }
 
 @media (min-width: 601px) and (max-width: 991px) {
@@ -72,6 +76,9 @@ margin-left: 14px;
     .main-text {
         width: 49%;
     }
+    
+   
+    
 }
 
 @media (min-width: 992px) and (max-width: 1400px) {
@@ -80,6 +87,26 @@ margin-left: 14px;
     }
 
     .main-text {
-        width: 25%;
+        width: 27%;
+    }
+    .one{
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 39px;
+    text-align: left;
+    margin-bottom: 30px;
+    margin-left: 14px;
+    overflow: hidden;
+    }
+    .two{
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32.5px;
+    text-align: left;
+    margin-left: 14px;
+    margin-bottom: 5px;
+    overflow: hidden;
     }
 }
